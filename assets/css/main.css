@@ -504,7 +504,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding:40px 0; /* Further reduced to minimize space between sections */
   overflow: clip;
 }
 
@@ -512,16 +512,18 @@ section,
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
-  padding-bottom: 60px;
+  padding-bottom: 20px; /* Reduced to minimize space between About and Skills */
   position: relative;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
   position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .section-title h2:after {
@@ -537,6 +539,13 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  text-indent: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 /*--------------------------------------------------------------
