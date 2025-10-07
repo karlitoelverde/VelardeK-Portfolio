@@ -32,7 +32,7 @@
     .video-slide {
       width: 100%;
       height: auto;
-      max-height: 500px; /* Adjust this value as needed */
+      max-height: 600px; /* Adjust this value as needed */
       display: block;
       margin: 0 auto;
     }
@@ -45,7 +45,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+      <img src="assets/img/my-profile-img1.jpg" alt="" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -94,41 +94,39 @@
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
 
+              <!-- Google Drive video above the slider -->
+              <div id="copartner-video-container" style="text-align:center;">
+                <iframe src="https://drive.google.com/file/d/1Wu6ALtsbBmK4N46Gj1-1ZWucJpsex4tq/preview" 
+                  width="100%" height="400" allow="autoplay"></iframe>
+                <div style="height:40px;"></div>
+              </div>
               <div class="swiper-wrapper align-items-center">
-
-                <!-- Video Slide -->
-                <div class="swiper-slide">
-                  <video id="copartner-video" class="video-slide" controls>
-                    <source src="assets/img/portfolio/copartnerad-1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                  </video>
-                </div>
-
-                <!-- Image Slide 1 -->
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/copartnerad-1.jpg" alt="Copartner Admin Login">
                 </div>
-
-                <!-- Image Slide 2 -->
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/copartnerad-2.jpg" alt="Copartner Dashboard">
                 </div>
-
-                <!-- Image Slide 3 -->
                 <div class="swiper-slide">
                   <img src="assets/img/portfolio/copartnerad-3.jpg" alt="Copartner Analytics">
                 </div>
-
-                 <div class="swiper-slide">
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/copartnerad-4.jpg" alt="Copartner Analytics">
                 </div>
-
-                 <div class="swiper-slide">
+                <div class="swiper-slide">
                   <img src="assets/img/portfolio/copartnerad-5.jpg" alt="Copartner Analytics">
                 </div>
-
               </div>
               <div class="swiper-pagination"></div>
+  <style>
+    .swiper-slide img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
             </div>
           </div>
 
